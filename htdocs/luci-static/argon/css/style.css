@@ -1682,6 +1682,11 @@ div > .table > .tbody > .tr:nth-of-type(2n) {
     content: "\e90d";
     color: #2dce89!important;
 }
+
+.main > .main-left > .nav > .slide > .menu[data-title= Statistics ]:before {
+    content: "\e90f";
+    color: #32325d!important;
+}
 .main > .main-left > .nav > .slide > .menu[data-title= Logout ]:before{
     content: "\e907";
     color: #32325d!important;
@@ -1742,9 +1747,12 @@ header > .fill > .container > .brand{
 .main > .main-left > .nav > .slide > .slide-menu > li {
 
 }
+.main > .main-left > .nav > .slide > .slide-menu > li:haver {
+	box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+}
 
 .main > .main-left > .nav > .slide > .slide-menu > .active {
-
+	box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
 }
 
 .main > .main-left > .nav > .slide > .slide-menu > li > a {
