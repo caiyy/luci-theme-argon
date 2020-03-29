@@ -942,6 +942,8 @@ ul li .cbi-input-checkbox {
 
 .cbi-value-field>ul>li .ifacebadge {
     background-color: #eee;
+    background-color: #272c31;
+
     margin-left: 0.4rem;
     margin-top: -0.5rem;
 }
@@ -2012,7 +2014,7 @@ fieldset {
     padding: 0;
     font-weight: normal;
     font-style: normal;
-    line-height: 1;
+    /*line-height: 1;*/
     font-family: inherit;
     min-width: inherit;
     overflow-x: auto;
@@ -2064,6 +2066,7 @@ table {
     border: 1px solid #eee;
     border: 1px solid #24292e;
     background-color: #24292e;
+    margin: 0 !important;
 }
 
 table>tbody>tr>td,
@@ -2879,8 +2882,8 @@ td>.ifacebadge,
     border: 1px solid #ccc;
     border-radius: 0.375rem;
     background-color: #f9f9f9;
-    display: inline-flex;
-    flex-direction: column;
+    background-color: #272c31;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     line-height: 1.2em;
     min-width: 100px;
     overflow: hidden;
@@ -2955,6 +2958,7 @@ td>.ifacebadge,
 
 .cbi-value-field>ul>li .ifacebadge {
     background-color: #eee;
+    background-color: #272c31;
     margin-left: 0.4rem;
     margin-top: -0.5rem;
 }
