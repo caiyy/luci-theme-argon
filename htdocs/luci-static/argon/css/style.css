@@ -1060,6 +1060,8 @@ small {
     word-wrap: break-word;
     font-size: 1.4rem;
     color: #404040;
+    background-color: #24292e !important;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 input[name="ping"],
@@ -2933,6 +2935,7 @@ td>.ifacebadge,
     padding: 0.2rem 1rem;
     margin: 0.3rem;
     border: 1px solid #6C6C6C;
+    background-color: #24292e !important;
 }
 
 .zonebadge>input[type="text"] {
