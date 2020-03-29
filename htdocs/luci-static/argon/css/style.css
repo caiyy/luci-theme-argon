@@ -2542,7 +2542,8 @@ select[multiple="multiple"] {
 }
 
 .cbi-section-node {
-    background: #fff;
+    /*background: #fff;*/
+    background: #272c31;
     border: 0;
     border-radius: .375rem;
     margin-bottom: 0px;
