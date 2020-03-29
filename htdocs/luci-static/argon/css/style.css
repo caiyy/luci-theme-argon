@@ -3373,6 +3373,7 @@ header>.container>.pull-right>* {
 
 .cbi-section {
     background: #fff;
+    background: #24292e !important;
     border: 0;
     border-radius: .375rem;
     margin-bottom: 30px;
