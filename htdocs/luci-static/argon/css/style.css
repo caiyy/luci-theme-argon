@@ -674,6 +674,7 @@ td>table>tbody>tr>td,
 
 .cbi-page-actions {
     border-top: 1px solid #eee;
+    border-top: 1px solid rgba(255, 255, 255, .08) !important;
     padding-top: 1rem;
     text-align: right;
 }
