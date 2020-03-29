@@ -2077,12 +2077,15 @@ table>thead>tr>td {
     color: #525f7f;
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
-    padding: 1rem;
+    padding: 1rem 0;
+    /*
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    */
     border-top: 1px solid #ddd;
     border-top: 1px solid #24292e;
     white-space: nowrap;
+    max-width: 320px;
 }
 
 table>tbody>tr>th,
