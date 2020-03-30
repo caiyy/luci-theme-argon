@@ -32,7 +32,7 @@
  *  Font generate by Icomoon<icomoon.io>
  */
 
-:root {
+ :root {
     --blue: #5e72e4;
     --indigo: #5603ad;
     --purple: #8965e0;
@@ -214,6 +214,14 @@ body {
     font-family: Open Sans, sans-serif Microsoft Yahei, WenQuanYi Micro Hei, sans-serif, "Helvetica Neue", Helvetica, Hiragino Sans GB;
 }
 
+a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+a:hover {
+    color: #fff;
+}
+
 
 /*** Main Loading ***/
 
@@ -289,21 +297,18 @@ body {
 }
 
 @-webkit-keyframes sk-foldCubeAngle {
-
     0%,
     10% {
         -webkit-transform: perspective(140px) rotateX(-180deg);
         transform: perspective(140px) rotateX(-180deg);
         opacity: 0;
     }
-
     25%,
     75% {
         -webkit-transform: perspective(140px) rotateX(0deg);
         transform: perspective(140px) rotateX(0deg);
         opacity: 1;
     }
-
     90%,
     100% {
         -webkit-transform: perspective(140px) rotateY(180deg);
@@ -313,21 +318,18 @@ body {
 }
 
 @keyframes sk-foldCubeAngle {
-
     0%,
     10% {
         -webkit-transform: perspective(140px) rotateX(-180deg);
         transform: perspective(140px) rotateX(-180deg);
         opacity: 0;
     }
-
     25%,
     75% {
         -webkit-transform: perspective(140px) rotateX(0deg);
         transform: perspective(140px) rotateX(0deg);
         opacity: 1;
     }
-
     90%,
     100% {
         -webkit-transform: perspective(140px) rotateY(180deg);
@@ -419,7 +421,6 @@ footer>a {
         -ms-transform: rotate(0);
         transform: rotate(0);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
@@ -943,7 +944,6 @@ ul li .cbi-input-checkbox {
 .cbi-value-field>ul>li .ifacebadge {
     background-color: #eee;
     background-color: #272c31;
-
     margin-left: 0.4rem;
     margin-top: -0.5rem;
 }
@@ -1061,7 +1061,7 @@ small {
     font-size: 1.4rem;
     color: #404040;
     background-color: #24292e !important;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 input[name="ping"],
@@ -1497,7 +1497,6 @@ footer>a {
         -ms-transform: rotate(0);
         transform: rotate(0);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
@@ -1578,7 +1577,7 @@ header>.container {
     margin-bottom: 0rem;
     letter-spacing: 0.1rem;
     color: #32325d;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: bold;
 }
 
@@ -1956,7 +1955,9 @@ header>.fill>.container>.brand {
     color: #fff;
 }
 
-.main>.main-left>.nav>.slide>.slide-menu>li>a:hover {}
+.main>.main-left>.nav>.slide>.slide-menu>li>a:hover {
+    color: #fff;
+}
 
 .main>.main-left>.nav>.slide>.slide-menu>.active>a:hover {}
 
@@ -1966,7 +1967,7 @@ li {
 
 #maincontent>.container {
     margin: 0 2rem 1rem 2rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 h1 {
@@ -2006,6 +2007,7 @@ h3 {
     margin-bottom: 0rem;
     letter-spacing: 0.1rem;
     color: #32325d;
+    color: rgba(255, 255, 255, 0.6);
     font-weight: bold;
 }
 
@@ -2057,7 +2059,7 @@ fieldset.cbi-section p {
     letter-spacing: 0.1rem;
     color: #32325d;
     color: #fff;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, );
     font-weight: bold;
 }
 
@@ -2078,7 +2080,7 @@ table>thead>tr>td {
     white-space: nowrap;
     color: #525f7f;
     color: #fff;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
     padding: 1rem 0;
     /*
     padding-right: 1.5rem;
@@ -2088,6 +2090,18 @@ table>thead>tr>td {
     border-top: 1px solid #24292e;
     white-space: nowrap;
     max-width: 320px;
+}
+
+table>tbody>tr>td:first-child,
+table>tfoot>tr>td:first-child,
+table>thead>tr>td:first-child {
+    padding-left: 1.5rem;
+}
+
+table>tbody>tr>td:nth-last-child(1),
+table>tfoot>tr>td:nth-last-child(1),
+table>thead>tr>td:nth-last-child(1) {
+    padding-right: 1.5rem;
 }
 
 table>tbody>tr>th,
@@ -2277,7 +2291,7 @@ form.inline+form.inline,
 .tabs>li>a {
     text-decoration: none;
     color: #404040;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
     padding: 0.5rem 0.8rem;
 }
 
@@ -2544,7 +2558,7 @@ select[multiple="multiple"] {
 .cbi-section-node:nth-of-type(2n) {
     background-color: #f9f9f9;
     background-color: #24292e;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .cbi-section-node-tabbed {
@@ -2606,7 +2620,11 @@ select[multiple="multiple"] {
 }
 
 .cbi-section a {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.cbi-section a:hover {
+    color: #fff;
 }
 
 .cbi-value-title {
@@ -2729,7 +2747,7 @@ td>.ifacebadge {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black;
     background: #272c31;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 #syslog {
@@ -2742,7 +2760,7 @@ td>.ifacebadge {
     background-color: #FFF;
     border: none;
     outline: none;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
     background-color: #272c31;
 }
 
@@ -3184,7 +3202,6 @@ header>.container>.pull-right>* {
     color: #8898aa;
     outline: 0;
     background-color: #fff;
-
     background-color: #272c31;
     box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, .1)
 }
@@ -3397,7 +3414,7 @@ header>.container>.pull-right>* {
     font-size: 0.7rem;
     font-weight: 600;
     color: #525f7f;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 #cbi-system-led em {
@@ -3459,37 +3476,29 @@ header>.container>.pull-right>* {
     .main-left {
         width: calc(0% + 13rem);
     }
-
     .main-right {
         width: calc(100% - 13rem);
     }
-
     .cbi-button {
         /*padding: 0.3rem 1.5rem;*/
         font-size: 0.8rem;
     }
-
     header>.container>.pull-right>* {
         top: 0.35rem;
     }
-
     .label {
         padding: 0.2rem 0.6rem;
     }
-
     .cbi-value-title {
         width: 15rem;
         padding-right: 0.6rem;
     }
-
     fieldset {
         padding: 0;
     }
-
     .cbi-input-textarea {
         font-size: small;
     }
-
     .node-status-iptables>.main fieldset li>a {
         padding: 0.3rem 0.6rem;
     }
@@ -3499,36 +3508,29 @@ header>.container>.pull-right>* {
     header>.container {
         margin-top: 0.25rem;
     }
-
     .main-left {
         width: calc(0% + 13rem);
     }
-
     .main-right {
         width: calc(100% - 13rem);
     }
-
     .cbi-tabmenu>li>a,
     .tabs>li>a {
         padding: 0.2rem 0.5rem;
     }
-
     .panel-title {
         font-size: 1.1rem;
         padding-bottom: 1rem;
     }
-
     table {
         font-size: 0.7rem !important;
         width: 100% !important;
     }
-
     .main>.main-left>.nav>li,
     .main>.main-left>.nav>li a,
     .main>.main-left>.nav>.slide>.menu {
         font-size: 0.9rem;
     }
-
     .main>.main-left>.nav>.slide>.slide-menu>li>a {
         font-size: 0.7rem;
     }
@@ -3540,61 +3542,48 @@ header>.container>.pull-right>* {
         position: fixed;
         z-index: 100;
     }
-
     .main-right {
         width: 100%;
     }
-
     .showSide {
         padding: 0.1rem;
         position: relative;
         z-index: 999;
         display: inline-block;
     }
-
     .showSide:before {
         content: "\e20e";
         font-size: 1.7rem;
     }
-
     .node-main-login .showSide {
         display: none !important;
     }
-
     header>.fill>.container>.brand {
         display: inline-block;
     }
-
     .cbi-value-title {
         width: 9rem;
         padding-right: 1rem;
     }
-
     .node-network-diagnostics>.main .cbi-map fieldset>div * {
         width: 100% !important;
     }
-
     .node-network-diagnostics>.main .cbi-map fieldset>div input[type="text"] {
         margin: 3rem 0 0 0 !important;
     }
-
     .node-network-diagnostics>.main .cbi-map fieldset>div:nth-child(4) input[type="text"] {
         margin: 0 !important;
     }
-
     .node-network-diagnostics>.main .cbi-map fieldset>div select,
     .node-network-diagnostics>.main .cbi-map fieldset>div input[type="button"] {
         margin: 1rem 0 0 0;
     }
-
     .node-network-diagnostics>.main .cbi-map fieldset>div {
         width: 100% !important;
     }
-
     #diag-rc-output>pre {
         font-size: 1rem;
     }
-
     .node-main-login>.main .cbi-value-title {
         text-align: left;
     }
@@ -3604,40 +3593,31 @@ header>.container>.pull-right>* {
     body {
         font-size: 0.8rem;
     }
-
     fieldset {
         padding: 0;
         margin: 1rem 0 0 0;
     }
-
     .tabs {
         margin: 0.5rem 0rem
     }
-
     .toggle {
         margin: 0;
     }
-
     #maincontent>.container {
         margin: 0 1rem 1.5rem 1rem;
     }
-
     .main>.main-left>.nav>.slide>.menu {
         font-size: 1rem;
     }
-
     .main>.main-left>.nav>.slide>.slide-menu>li>a {
         font-size: 0.9rem;
     }
-
     .main>.main-left>.nav>.slide>.menu:before {
         padding-top: 5px;
     }
-
     .main>.main-left>.nav>.slide>.menu:after {
         top: 0.9rem;
     }
-
     .cbi-value-title {
         width: 100%;
         min-width: 0rem !important;
@@ -3649,45 +3629,36 @@ header>.container>.pull-right>* {
         text-align: left;
         padding-left: 1rem;
     }
-
     .cbi-value>.cbi-value-field {
         display: inline-block;
         padding-left: 1rem;
     }
-
     #cbi-systemup .cbi-value-field {
         display: inline-block;
         width: 90% !important;
     }
-
     .node-main-login .cbi-value>.cbi-value-field {
         width: 18rem;
         padding-left: 0rem;
     }
-
     .cbi-tabmenu>li,
     .tabs>li {
         padding: 0.6rem 0rem;
     }
-
     .cbi-tabmenu>li>a,
     .tabs>li>a {
         padding: 0.2rem 0.3rem;
         font-size: 0.9rem;
     }
-
     .cbi-page-actions>div>input {
         display: none;
     }
-
     .node-main-login>.main .container {
         padding: 0.5rem 1rem 2rem 1rem;
     }
-
     .node-main-login>.main form>div:nth-last-child(1) {
         margin-top: 0rem;
     }
-
     .node-main-login>.main .cbi-value-title {
         width: 100% !important;
         margin-top: 0rem;
@@ -3695,56 +3666,44 @@ header>.container>.pull-right>* {
         margin-bottom: 0;
         padding: 0 0.5rem;
     }
-
     .node-main-login>.main fieldset {
         margin: 0;
         padding: 0.5rem;
     }
-
     .node-main-login .alert-message.warning {
         width: calc(100% - 2rem);
         padding: 1rem 1rem;
         font-size: 12px;
     }
-
     h2 {
         font-size: 1.5rem;
     }
-
     .node-main-login>.main .container h2 {
         margin: -70px auto 15px auto;
     }
-
     .tabs>li>a {
         font-size: 0.9rem;
     }
-
     select,
     input {
         font-size: 0.9rem;
     }
-
     .mobile-hide {
         display: none;
     }
-
     .panel-title {
         font-size: 1.4rem;
         padding-bottom: 1rem;
     }
-
     .node-system-packages>.main .cbi-value.cbi-value-last>div {
         width: 100% !important;
     }
-
     .node-system-packages .cbi-section-node .cbi-value {
         padding: 0.3rem 1rem;
     }
-
     .node-system-packages>.main .cbi-value .cbi-value-field input {
         width: 100%;
     }
-
     .node-status-iptables>.main div>.cbi-map>form {
         position: static !important;
         margin: 0 0 2rem 0;
@@ -3763,12 +3722,10 @@ header>.container>.pull-right>* {
         box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
         -webkit-overflow-scrolling: touch;
     }
-
     .node-status-iptables>.main div>.cbi-map>form input[type="submit"] {
         width: 100% !important;
         margin: 0;
     }
-
     .node-status-iptables>.main div>.cbi-map>form input[type="submit"]+input[type="submit"] {
         margin-top: 1rem;
     }
@@ -3776,7 +3733,6 @@ header>.container>.pull-right>* {
 
 @keyframes myfirst {
     0% {}
-
     100% {
         background-position: 190px 0;
     }

@@ -261,7 +261,7 @@
     $(".main-right").focus();
     $(".main-right").blur();
     $("input").attr("size", "0");
-    $("#iwsvg, #iwsvg2, #bwsvg").css("background", "none");
+    $("#iwsvg, #iwsvg2, #bwsvg").css("background", "#24292e");
     $("div small").css("color", "rgba(255, 255, 255, 0.8)");
     if (mainNodeName != undefined) {
         console.log(mainNodeName);
