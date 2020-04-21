@@ -1518,6 +1518,62 @@ footer>a {
     text-align: center;
 }
 
+[id^="cbi-apply-"] {
+    position: fixed;
+    z-index: 200;
+    width: 20rem;
+    margin-left: -10rem;
+    margin-top: -8.5rem;
+    height: 17rem;
+    left: 50%;
+    top: 50%;
+    font-size: 1.2rem;
+    border-color: #5e72e4;
+    text-align: center;
+}
+
+[id^="cbi-apply-"] img {
+    content: url(/luci-static/argon/img/loading.gif);
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+    filter: blur(5px);
+    border-radius: 50%;
+    /*background: url(/luci-static/argon/img/loading.png);*/
+    background: linear-gradient(#14ffe9, #ffed3b, #ff00e0);
+    animation: animation 0.5s linear infinite;
+}
+
+
+/*
+[id^="cbi-apply-"] img:before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    filter: blur(10px);
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9, #ffed3b, #ff00e0);
+}
+
+[id^="cbi-apply-"] img:after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    filter: blur(20px);
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9, #ffed3b, #ff00e0);
+}
+*/
+
+@keyframes animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 [id^="cbi-apply-"]>.panel-title {
     border-bottom: none;
 }
